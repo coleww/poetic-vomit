@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify www/demo.js -o www/bundle.js",
-    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose"
+    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose",
+    "test": "node test.js"
   },
   "devDependencies": {
     "browserify": "*",
@@ -15,6 +16,7 @@
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "license": "MIT",
   "dependencies": {
-    "pronouncing": "git://github.com/aparrish/pronouncingjs"
+    "pronouncing": "git://github.com/aparrish/pronouncingjs",
+    "yargs": "^3.14.0"
   }
 }

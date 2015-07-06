@@ -1,0 +1,20 @@
+{
+  "name": "poetic-vomit",
+  "description": "replace words in a text with rhyming words",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify www/demo.js -o www/bundle.js",
+    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "tape": "^4.0.0",
+    "watchify": "*"
+  },
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "pronouncing": "git://github.com/aparrish/pronouncingjs"
+  }
+}

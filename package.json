@@ -19,5 +19,18 @@
     "brfs": "^1.4.0",
     "pronouncing": "git://github.com/aparrish/pronouncingjs",
     "yargs": "^3.14.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/poetic-vomit.git"
+  },
+  "keywords": [
+    "poetry",
+    "rhymes",
+    "dada"
+  ],
+  "bugs": {
+    "url": "https://github.com/coleww/poetic-vomit/issues"
+  },
+  "homepage": "https://github.com/coleww/poetic-vomit"
 }

@@ -1,7 +1,11 @@
 poetic-vomit
 ----------------
 
+[![NPM](https://nodei.co/npm/poetic-vomit.png)](https://nodei.co/npm/poetic-vomit/)
+
 uses [pronouncingjs](https://github.com/aparrish/pronouncingjs) to randomly pick rhyming words
+
+### [DEMOnstration](http://coleww.github.io/poetic-vomit/)
 
 ### install
 
@@ -14,6 +18,7 @@ var vomit = require('poetic-vomit')
 
 vomit('how bout them ice cream sandwiches? pretty good, eh?')
 // 'how all-out logarithm ice basim sandwiches? new_york_city good, eh?'
+
 vomit('to be or not to be, that is the question, something something', 0.25)
 // 'to be or watt to resignee, that is the question, something something'
 ```

@@ -1,6 +1,6 @@
 {
   "name": "poetic-vomit",
-  "description": "replace words in a text with rhyming words",
+  "description": "replace words in a string with words that rhyme with those words",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "license": "MIT",
   "dependencies": {
+    "brfs": "^1.4.0",
     "pronouncing": "git://github.com/aparrish/pronouncingjs",
     "yargs": "^3.14.0"
   }

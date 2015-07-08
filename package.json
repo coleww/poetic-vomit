@@ -1,7 +1,10 @@
 {
   "name": "poetic-vomit",
   "description": "replace words in a string with words that rhyme with those words",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "bin": {
+    "poeticVomit": "cmd.js"
+  },
   "main": "index.js",
   "scripts": {
     "build": "browserify www/demo.js -o www/bundle.js",

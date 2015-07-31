@@ -3,6 +3,10 @@ poetic-vomit
 
 [![NPM](https://nodei.co/npm/poetic-vomit.png)](https://nodei.co/npm/poetic-vomit/)
 
+[![Build Status](https://secure.travis-ci.org/coleww/poetic-vomit.png)](http://travis-ci.org/coleww/poetic-vomit)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
+
 uses [pronouncingjs](https://github.com/aparrish/pronouncingjs) to randomly pick rhyming words
 
 ### [DEMOnstration](http://coleww.github.io/poetic-vomit/)

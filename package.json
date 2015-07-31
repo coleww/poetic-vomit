@@ -9,10 +9,11 @@
   "scripts": {
     "build": "browserify www/demo.js -o www/bundle.js",
     "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose",
-    "test": "node test.js"
+    "test": "standard && node test.js"
   },
   "devDependencies": {
     "browserify": "*",
+    "standard": "^4.5.4",
     "tape": "^4.0.0",
     "watchify": "*"
   },

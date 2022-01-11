@@ -1,7 +1,7 @@
 {
   "name": "poetic-vomit",
   "description": "replace words in a string with words that rhyme with those words",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
     "poeticVomit": "cmd.js"
   },
@@ -21,18 +21,14 @@
   "license": "MIT",
   "dependencies": {
     "brfs": "^1.4.0",
-    "pronouncing": "git://github.com/aparrish/pronouncingjs",
+    "pronouncing": "https://github.com/aparrish/pronouncingjs",
     "yargs": "^3.14.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/coleww/poetic-vomit.git"
   },
-  "keywords": [
-    "poetry",
-    "rhymes",
-    "dada"
-  ],
+  "keywords": ["poetry", "rhymes", "dada"],
   "bugs": {
     "url": "https://github.com/coleww/poetic-vomit/issues"
   },
